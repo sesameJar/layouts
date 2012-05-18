@@ -1,0 +1,44 @@
+body{
+
+}
+div{
+	outline: 2px dashed red;
+}
+div.container{
+	width:950px;
+	background: url('images/layout2.jpg') no-repeat;
+	
+}
+div.container div.header{
+	min-height:215px;
+	
+}
+div.header div{
+	
+}
+div.header div.logo{
+	
+	min-height:215px;
+}
+div.header div.menu{
+	min-height:75px;
+}
+div.header div.headercontent{
+	min-height:140px;
+}
+div.content div.slide{
+	min-height:320px;
+}
+div.content3 div{
+	min-height:330px;
+}
+
+div.footer{
+	min-height:410px;
+}
+div.footer div.info{
+	min-height:255px;
+}
+div.info div{
+	min-height:255px;
+}

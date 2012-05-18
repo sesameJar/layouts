@@ -1,0 +1,26 @@
+body{
+
+}
+div.container{
+	width: 950px;
+
+	background-image : url('images/backguid.jpg');
+	background-repeat: no-repeat;
+}
+div{
+	outline:2px dashed red;
+	min-height:100px;
+}
+div.header div{
+	min-height:130px;
+
+}
+div.content div{
+	min-height:540px;
+}
+div.footer div.footermenu,div.copyright{
+	min-height:50px;
+}
+div.header ul{
+	list-style-type: none;
+}

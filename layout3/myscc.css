@@ -1,0 +1,396 @@
+div{
+	outline:1px dashed red;
+
+
+}
+body{
+	background-image: url('scope_files/Design_Museum_A4-A5-A6_bg.jpg');
+
+	background-position: cover;
+}
+div.container{
+	background-repeat: no-repeat;
+	width: 950px;
+
+}
+div.header{
+	clear: right;
+	min-height:70px;
+	margin-bottom: 10px;
+	padding-top: 1px;/* ZedLoos tokhme sag harum zade k rid b asabam   */
+	background-color: white;
+}
+
+
+div.header div{
+
+	
+}
+div.contact{
+	width:210px;
+	min-height: 30px;
+	margin:20px 20px 10px;
+	background-color: #FFD62C;
+
+}
+
+div.contact p{
+	font-size: 12px;
+	margin-top:5px;
+}
+div.header div.logo{
+
+	width:180px;
+	padding: 14px 10px;
+}
+div.header div.moto{
+	margin-top:30px;
+	font-style: italic;
+}
+div.moto p{
+	color:#bbb;
+
+}
+div.content{
+	margin-bottom: 10px;
+	background-color: white;
+
+}
+div.content div.top{
+	min-height:360px;
+
+}
+div.content div.top div.slide{
+	width:700px;
+	overflow: hidden;
+	position: relative;
+	z-index:0;
+
+}
+
+div.slide .train {
+	width:3100px;
+	position: relative;
+	-webkit-transition: left 900ms;
+}
+
+div.slide .train > div{
+	float:left;
+
+
+}
+div.slide .train > div > img{
+	display: block;
+
+}
+div.slide ul.btns{
+	list-style-type: none;
+	position: absolute;
+	left:600px;
+	top:330px;
+	
+}
+ul.btns li{
+	display: block;
+	width:12px;
+	height:12px;
+	background-color: white;
+	border-radius: 50%;
+	float: left;
+	margin-right:10px;
+
+}
+ul.btns li:hover{
+	background-color: black;
+}
+div.content div.top div{
+	min-height:360px;
+}
+div.recent{
+	min-height:50px;
+}
+div.recent div{
+	min-height:50px;
+
+}
+div.recent div.double{
+	background-image: url('scope_files/bg-widget-title.gif');
+	background-repeat: no-repeat;
+	background-position:center;
+	width:10px;
+}
+div.recent div.w3{
+	width:100px;
+}
+div.recent div.w3 p{
+	margin-top: 15px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+div.dotted{
+	background-image: url('scope_files/dots.gif');
+	background-repeat: repeat-x;
+	background-position:center;
+
+}
+div.works{
+	min-height:210px;
+	margin-left: 10px;
+}
+div.works div{
+	
+
+}
+div.works h4{
+	text-align: center;
+}
+div.works h4 a{
+	color: black;
+	text-decoration: none;
+
+	
+}
+div.works h4 a:hover{
+	color:#bbb;
+	background-color: transparent;
+}
+div.works a{
+	color: black;
+	text-decoration:none;
+	-webkit-transition: all 600ms;
+	text-align: center;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+div.works a:hover{
+	background-color: #FFD62C
+
+}
+div.works div.gray{
+	background-color: #eee;
+	width:220px;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+div.works div.gray a{
+	margin:0 auto;
+}
+div.content div.bottom{
+	min-height: 50px;
+}
+div.footer{
+	min-height: 330px;
+	padding-top: 10px;
+}
+div.footer div.top{
+	min-height:50px;
+}
+div.footer div.top div{
+	min-height:50px;
+}
+
+div.footer div.middle,div.bottom{
+	min-height:110px;
+}
+
+div.footer div.middle div{
+	min-height:110px;
+}
+div.footer div.bottom div{
+	min-height:107px;
+}
+div.menubottom{
+	min-height:50px;
+}
+div.menubottom div{
+	min-height:50px;
+}
+div.header div.menu{
+	min-height: 40px !important;
+
+	margin-top: 20px !important;
+}
+div.menu ul{
+	list-style-type: none;
+	position: relative;
+}
+div.menu li{
+	float: left;
+}
+div.menu a{
+	text-decoration:none;
+	color:#999;
+	text-transform: capitalize;
+	padding:10px 15px;
+	display: block;
+	-webkit-transition: all 300ms;
+	background-color: #fff;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+div.menu a:first-child{
+	padding-left: 3px;
+}
+div.menu a:active{
+	color:black;
+}
+div.menu a:hover{
+	color:black;
+}
+div.menu li ul{
+	position: absolute;
+	display:none;
+	width:auto;
+}
+div.menu li li{
+	float:none;
+}
+
+div.menu li:hover ul{
+	display:block;
+}
+
+div.menu li:hover li{
+	border-bottom: 1px solid #999;
+}
+
+
+div.works div.yellow{
+	background-color: #FFD62C;
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+	-webkit-opacity:0.7;
+	-o-opacity:0.7;
+	filter:alpha(opacity=7);
+	width:1px;
+	min-height:1px;
+	transition: all 1ms;
+}
+div.works div.img1{
+	width:220px;
+	min-height:140px;
+	background-image: url('scope_files/vimeo-220x140.jpg');
+	background-repeat: no-repeat;
+}
+
+
+div.img1:hover div.yellow{
+	width:220px;
+	height:140px;
+}
+div.works div.img2{
+	width:220px;
+	min-height:140px;
+	background-image: url('scope_files/poster-220x140.jpg');
+	background-repeat: no-repeat;
+}
+
+
+div.img2:hover div.yellow{
+	width:220px;
+	height:140px;
+}
+
+div.works div.img3{
+	width:220px;
+	min-height:140px;
+	background-image: url('scope_files/5323729685_dd70b0a42e_b-220x140.jpg');
+	background-repeat: no-repeat;
+}
+
+
+div.img3:hover div.yellow{
+	width:220px;
+	height:140px;
+}
+
+div.works div.img4{
+	width:220px;
+	min-height:140px;
+	background-image: url('scope_files/ebc_wallpaper_1920x1200s1-220x140.jpg');
+	background-repeat: no-repeat;
+}
+
+
+div.img4:hover div.yellow{
+	width:220px;
+	height:140px;
+}
+
+
+div.footer{
+	background-color: black;
+}
+
+div.footer div.top h5.blog{
+	color:#fff;
+	display: block;
+	padding-top: 13px;
+	padding-left: 33px;
+
+}
+
+div.footer div.top h5{
+	color:#fff;
+	display:inline-block;
+	padding-top: 13px;
+	padding-left: 15px;
+}
+
+
+div.middle h5{
+	color:#fff;
+	display: inline-block;
+	border-bottom: 1px dotted white;
+	margin-left: 80px;
+
+}
+div.middle a{
+	text-decoration:none;
+	color:white;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	-webkit-transition: all 500ms;
+
+}
+div.middle a:hover{
+	color:#FFD62C;
+}
+div.middle p{
+	margin-left: 80px;
+	color:#bbb;
+}
+
+
+div.bottom h5{
+	color:#fff;
+	margin-left: 80px;
+	display: inline-block;
+	border-bottom: 1px dotted white;
+}
+div.bottom a{
+	text-decoration:none;
+	color:white;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	-webkit-transition: all 500ms;
+}
+div.bottom a:hover{
+	color:#FFD62C;
+}
+div.bottom p{
+	color:#bbb;
+	margin-left:80px;
+}
+div.menubottom p{
+	color:#888;
+	font-size:10px;
+
+}
+
+div.menubottom div.w6{
+	padding-top:25px;
+	padding-left: 20px;
+}
+div.menubottom{
+
+
+}
+
+

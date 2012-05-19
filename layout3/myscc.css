@@ -1,15 +1,29 @@
+body,html{
+	overflow: hidden;
+}
+div.backimage{
+	background-image: url('scope_files/Design_Museum_A4-A5-A6_bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
 div{
 	outline:1px dashed red;
 
 
 }
 body{
-	background-image: url('scope_files/Design_Museum_A4-A5-A6_bg.jpg');
 
-	background-position: cover;
 }
 div.container{
-	background-repeat: no-repeat;
+
 	width: 950px;
 
 }
@@ -18,7 +32,7 @@ div.header{
 	min-height:70px;
 	margin-bottom: 10px;
 	padding-top: 1px;/* ZedLoos tokhme sag harum zade k rid b asabam   */
-	background-color: white;
+	background-color : white;
 }
 
 
